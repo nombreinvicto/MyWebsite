@@ -5,7 +5,7 @@ app.env = "development"
 app.jinja_env.globals['zip'] = zip
 app.jinja_env.globals['enumerate'] = enumerate
 
-flaskKwargs = {'debug': True, 'host': '0.0.0.0', 'port': 5005}
+flaskKwargs = {'debug': True, 'host': '0.0.0.0', 'port': 5002}
 
 
 @app.route('/')
